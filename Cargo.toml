@@ -1,0 +1,19 @@
+[package]
+name = "tiling"
+version = "0.1.0"
+authors = ["Jonas Michel <jonasrmichel@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "A library for constructing tilings of regular polygons"
+readme = "README.md"
+keywords = ["tiling", "tiles", "polygon", "pattern", "geometric"]
+categories = ["graphics", "multimedia::images"]
+repository = "https://github.com/jonasrmichel/tiling"
+homepage = "https://github.com/jonasrmichel/tiling"
+documentation = "http://docs.rs/tiling"
+edition = "2018"
+
+[dependencies]
+cairo-rs = { version = "0.14.0", features = ["png"] }
+itertools = "0.10.0"
+png = "0.16.0"
+thiserror = "1.0"
