@@ -1,9 +1,10 @@
-use itertools::multizip;
 use std::{
     f64::consts::PI,
     hash::{Hash, Hasher},
     ops,
 };
+
+use itertools::multizip;
 
 use crate::{Color, Error::*, Result};
 

@@ -88,7 +88,7 @@ impl Model {
         Ok(())
     }
 
-    // Recurisvely fills the surface by repeating a pattern of shapes.
+    /// Recurisvely fills the surface by repeating a pattern of shapes.
     fn repeat_r(
         &mut self,
         indexes: Range<usize>,
